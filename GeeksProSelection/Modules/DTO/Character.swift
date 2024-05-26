@@ -13,3 +13,8 @@ struct Character: Decodable {
     let status: String
     let image: String
 }
+
+struct CharacterResponse: Decodable {
+    let results: [Character]
+}
+
